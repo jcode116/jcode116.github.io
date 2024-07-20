@@ -1,0 +1,14 @@
+.blogContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .blogPosts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
