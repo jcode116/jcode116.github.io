@@ -3,7 +3,7 @@ slug: welcome
 title: Welcome
 authors: jay
 tags: [hello]
-image: https://images.pexels.com/photos/5598288/pexels-photo-5598288.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
+image: /blogimg/hello.png
 ---
 
 # Welcome to ALOE

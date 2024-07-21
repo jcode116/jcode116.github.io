@@ -52,6 +52,10 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      // Default to Dark Mode
+      colorMode: {
+        defaultMode: 'dark',
+      },
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
@@ -68,7 +72,7 @@ const config = {
             //position: 'left',
             //label: 'Tutorial',
           //},
-          {to: '/blog', label: 'Blog', position: 'left'},
+          //{to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/jcode116/jcode116.github.io',
             label: 'GitHub',

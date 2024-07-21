@@ -14,6 +14,7 @@ function BlogListPage(props) {
       title={`Blog | ${siteConfig.title}`}
       description="Blog posts">
       <div className={styles.blogContainer}>
+        <h1>Blogs</h1>
         <div className={styles.blogPosts}>
           {items.map(({content: BlogPostContent}) => (
             <CustomBlogPostItem key={BlogPostContent.metadata.permalink} post={BlogPostContent} />
