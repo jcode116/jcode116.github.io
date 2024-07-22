@@ -3,9 +3,10 @@ slug: welcome
 title: Welcome
 authors: jay
 tags: [hello]
-image: /blogimg/hello.png
+image: /blogimg/welcome.png
 ---
 
+![Welcome](../../static/blogimg/welcome.png)
 # Welcome to ALOE
 
 Welcome to ALOE, your digital haven for exploring the vast landscape of technology. This blog is a testament to the belief that knowledge becomes more valuable when shared, and I'm thrilled to embark on this journey with you.

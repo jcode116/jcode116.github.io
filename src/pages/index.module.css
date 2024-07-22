@@ -19,7 +19,7 @@
   background-position: center; /* Center the background image */
   background-repeat: no-repeat; /* Do not repeat the image */
   color: white; /* Adjust text color for better readability */
-  height: 92.4vh; /* Set height to full viewport height */
+  height: 100vh; /* Set height to full viewport height */
 }
 
 

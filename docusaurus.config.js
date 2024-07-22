@@ -41,6 +41,7 @@ const config = {
       ({
         blog: {
           showReadingTime: true,
+          blogSidebarCount: 0
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -55,6 +56,8 @@ const config = {
       // Default to Dark Mode
       colorMode: {
         defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
       },
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
