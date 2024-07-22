@@ -60,7 +60,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/aloe-social-card.png',
       navbar: {
         title: 'ALOE',
         logo: {
