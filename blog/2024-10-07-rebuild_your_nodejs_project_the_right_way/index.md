@@ -1,17 +1,17 @@
 ---
 slug: rebuild_your_nodejs_project_the_right_way
-title: Rebuild Your Nodejs Project the Right Way
+title: Rebuild Your Node.js Project the Right Way
 authors: jay
 tags: [nodejs, app services]
 image: /blogimg/rebuild_your_nodejs_project_the_right_way.png
 ---
 
-![Rebuild Your Nodejs Project the Right Way](../../static/blogimg/rebuild_your_nodejs_project_the_right_way.png)
+![Rebuild Your Node.js Project the Right Way](../../static/blogimg/rebuild_your_nodejs_project_the_right_way.png)
 
-# Rebuild Your Nodejs Project the Right Way
+# Rebuild Your Node.js Project the Right Way
 ## Introduction
 
-Losing your package.json can be a real pain, especially if you’re working on a large project. This file is essential for managing dependencies and running scripts, and without it, you’re left to piece together what your project needs to function. Fortunately, with a few simple tools and steps, you can rebuild your package.json and restore your project. This guide will walk you through the process, starting with the most efficient method.
+Losing your package.json can be a real pain, especially if you’re working on a large project. This file is essential for managing dependencies and running scripts, and without it, you’re left to piece together what your project needs to function. <!--truncate-->Fortunately, with a few simple tools and steps, you can rebuild your package.json and restore your project. This guide will walk you through the process, starting with the most efficient method.
 
 ## Step-by-Step: Rebuilding Your package.json
 

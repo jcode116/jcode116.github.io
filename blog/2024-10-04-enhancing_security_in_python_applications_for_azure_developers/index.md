@@ -10,7 +10,7 @@ image: /blogimg/enhancing_security_in_python_applications_for_azure_developers.p
 
 # Enhancing Security in Python Applications for Azure Developers
 
-As part of Cybersecurity Awareness Month, we’re highlighting the importance of secure coding practices for Python developers. Python’s flexibility and widespread use in web development and APIs make it a prime target for security vulnerabilities. In this post, we’ll explore security best practices that developers can follow to protect Python applications deployed on Azure, ensuring your application remains secure from potential threats.
+As part of Cybersecurity Awareness Month, we’re highlighting the importance of secure coding practices for Python developers. <!--truncate-->Python’s flexibility and widespread use in web development and APIs make it a prime target for security vulnerabilities. In this post, we’ll explore security best practices that developers can follow to protect Python applications deployed on Azure, ensuring your application remains secure from potential threats.
 
 ## Use Helmet to Secure HTTP Headers
 HTTP headers help protect applications from common vulnerabilities such as cross-site scripting and clickjacking. Implement headers using middleware tools in Flask and Django.

@@ -1,6 +1,6 @@
 ---
 slug: enhancing_security_in_nodejs_applications_for_azure_developers
-title: Enhancing Security in Nodejs Applications for Azure Developers
+title: Enhancing Security in Node.js Applications for Azure Developers
 authors: jay
 tags: [nodejs, app services, security]
 image: /blogimg/enhancing_security_in_nodejs_applications_for_azure_developers.png
@@ -10,7 +10,7 @@ image: /blogimg/enhancing_security_in_nodejs_applications_for_azure_developers.p
 
 # Enhancing Security in Node.js Applications for Azure Developers
 
-In recognition of Cybersecurity Awareness Month, it’s essential to focus on securing Node.js applications, especially those deployed on cloud platforms like Azure. With Node.js being a popular choice for building scalable web applications, it’s crucial to adopt security best practices to protect your app and its users from common threats. This post highlights key techniques for ensuring the security of your Node.js applications on Azure.
+In recognition of Cybersecurity Awareness Month, it’s essential to focus on securing Node.js applications, especially those deployed on cloud platforms like Azure. <!--truncate-->With Node.js being a popular choice for building scalable web applications, it’s crucial to adopt security best practices to protect your app and its users from common threats. This post highlights key techniques for ensuring the security of your Node.js applications on Azure.
 
 ## Use Helmet to Secure HTTP Headers
 Helmet is a popular middleware that helps set various HTTP headers to protect your application from common web vulnerabilities. By default, it prevents attacks such as Cross-Site Scripting (XSS) and Clickjacking.

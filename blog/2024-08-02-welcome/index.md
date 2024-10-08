@@ -9,7 +9,7 @@ image: /blogimg/welcome.png
 ![Welcome](../../static/blogimg/welcome.png)
 # Welcome to ALOE
 
-Welcome to ALOE, your digital haven for exploring the vast landscape of technology. This blog is a testament to the belief that knowledge becomes more valuable when shared, and I'm thrilled to embark on this journey with you.
+Welcome to ALOE, your digital haven for exploring the vast landscape of technology. This blog is a testament to the belief that knowledge becomes more valuable when shared, and I'm thrilled to embark on this journey with you.<!--truncate-->
 
 ## Why ALOE?
 This blog isn't just about documenting my tech adventures—it's about sharing valuable insights, ideas, and experiences. Expect a blend of tutorials, tech reviews, reflections on industry trends, and personal breakthroughs. ALOE is designed to inspire, educate, and provide a platform for learning and discovery among fellow tech enthusiasts.

@@ -11,7 +11,7 @@ image: /blogimg/deploying_applications_to_azure_app_service_using_oryx.png
 # Deploying Applications to Azure App Service Using Oryx: A Detailed Overview
 
 ## 1. What is Oryx?
-**Oryx** is an open-source build system developed by Microsoft that plays a crucial role in automating the deployment process for applications on Azure App Service. The main goal of Oryx is to simplify and standardize the deployment process across various programming languages. It automatically detects the language used in your project, installs the necessary dependencies, builds the application, and configures the runtime environment to ensure your application runs efficiently on Azure.
+**Oryx** is an open-source build system developed by Microsoft that plays a crucial role in automating the deployment process for applications on Azure App Service. The main goal of Oryx is to simplify and standardize the deployment process across various programming languages. <!--truncate-->It automatically detects the language used in your project, installs the necessary dependencies, builds the application, and configures the runtime environment to ensure your application runs efficiently on Azure.
 
 ## 2. Supported Languages
 Oryx supports a wide range of programming languages and environments, making it versatile for different types of web applications. The supported languages include:
