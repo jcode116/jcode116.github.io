@@ -10,3 +10,7 @@ app services:
   label: App services
   permalink: /appservice
   description: App Serrvice tag description
+nodejs:
+  label: Node.js
+  permalink: /nodejs
+  description: Node.js tag description

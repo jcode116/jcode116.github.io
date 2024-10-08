@@ -1,12 +1,12 @@
 ---
-slug: deployingapplicationstoazureappserviceusingoryx
+slug: deploying_applications_to_azure_appservice_using_oryx
 title: Deploying Applications to Azure App Service Using Oryx
 authors: jay
 tags: [azure, app services]
 image: /blogimg/deploying_applications_to_azure_app_service_using_oryx.png
 ---
 
-![Welcome](../../static/blogimg/deploying_applications_to_azure_app_service_using_oryx.png)
+![Deploying Applications to Azure App Service Using Oryx](../../static/blogimg/deploying_applications_to_azure_app_service_using_oryx.png)
 
 # Deploying Applications to Azure App Service Using Oryx: A Detailed Overview
 
