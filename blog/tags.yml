@@ -14,3 +14,11 @@ nodejs:
   label: Node.js
   permalink: /nodejs
   description: Node.js tag description
+python:
+  label: Python
+  permalink: /python
+  description: Python tag description
+security:
+  label: Security
+  permalink: /security
+  description: Security tag description
