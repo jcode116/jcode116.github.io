@@ -41,7 +41,8 @@ const config = {
       ({
         blog: {
           showReadingTime: true,
-          blogSidebarCount: 0
+          blogSidebarCount: 0,
+          onUntruncatedBlogPosts: 'ignore', // Disable truncation previews
         },
         theme: {
           customCss: './src/css/custom.css',

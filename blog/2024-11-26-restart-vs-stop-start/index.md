@@ -2,11 +2,11 @@
 slug: when_to_restart_vs_stop_start_linux_and_container_apps_on_azure
 title: When to Restart vs. Stop/Start Linux and Container Apps on Azure
 authors: jay
-tags: [nodejs, app services, azure, linux]
+tags: [app services, azure, linux]
 image: /blogimg/when_to_restart_vs_stop_start_linux_and_container_apps_on_azure.png
 ---
 
-![Rebuild Your Node.js Project the Right Way](../../static/blogimg/when_to_restart_vs_stop_start_linux_and_container_apps_on_azure.png)
+![When to Restart vs. Stop/Start Linux and Container Apps on Azure](../../static/blogimg/when_to_restart_vs_stop_start_linux_and_container_apps_on_azure.png)
 
 # Azure App Service Troubleshooting: When to Restart vs. Stop/Start for Linux Web Apps and Container Apps
 
