@@ -12,25 +12,38 @@ image: /blogimg/enhancing_security_in_python_applications_for_azure_developers.p
 
 As part of Cybersecurity Awareness Month, we’re highlighting the importance of secure coding practices for Python developers. <!--truncate-->Python’s flexibility and widespread use in web development and APIs make it a prime target for security vulnerabilities. In this post, we’ll explore security best practices that developers can follow to protect Python applications deployed on Azure, ensuring your application remains secure from potential threats.
 
-## Use Helmet to Secure HTTP Headers
-HTTP headers help protect applications from common vulnerabilities such as cross-site scripting and clickjacking. Implement headers using middleware tools in Flask and Django.
+## Use Flask-Talisman to Secure HTTP Headers
+HTTP headers help protect applications from common vulnerabilities such as cross-site scripting (XSS) and clickjacking. In Flask, you can implement secure headers using Flask-Talisman.
 
 ```python
 from flask import Flask
-import helmet
+from flask_talisman import Talisman
 
 app = Flask(__name__)
-app.use(helmet())
+Talisman(app)  # Automatically adds secure headers
+
+@app.route('/')
+def index():
+    return "HTTP Headers Secured!"
 ```
+Flask-Talisman helps you automatically add important headers like Strict-Transport-Security, X-Content-Type-Options, X-Frame-Options, and X-XSS-Protection.
 
 ## Rate Limiting to Prevent Brute-Force Attacks
 Rate limiting ensures that malicious users can't overwhelm your server with a flood of requests. This practice helps prevent brute-force attacks.
 
 ```python
+from flask import Flask
 from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
+
 app = Flask(__name__)
 
 limiter = Limiter(app, key_func=get_remote_address)
+
+@app.route('/')
+@limiter.limit("5 per minute")  # Example: Limit to 5 requests per minute
+def index():
+    return "This route is rate-limited."
 ```
 By limiting requests from each IP, you can safeguard the backend from malicious access attempts.
 
